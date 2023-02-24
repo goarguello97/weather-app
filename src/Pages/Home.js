@@ -54,7 +54,7 @@ const Home = () => {
         );
         setWeatherBox("weather-box text-center scale-1 opacity-1");
         setWeatherDetail(
-          "weather-details w-[100%] flex justify-between mt-[38px] scale-1 opacity-1"
+          "weather-details w-[100%] flex justify-between mt-[18px] mb-[10px] scale-1 opacity-1"
         );
         setWeather(data.data.weather[0].main);
         setNotFound(
